@@ -390,7 +390,7 @@ If you are adding new functionality to Browbeat, either new workloads or new plu
 
     $ ci-scripts/install-and-check.sh
 
-See the README.rst in the ci-scripts folder for more details on the structure of the script. 
+See the README.rst in the ci-scripts folder for more details on the structure of the script and how to add additional tests. 
 
 Resources
 =========
