@@ -31,6 +31,9 @@ Table of Contents
       browbeat <#run-performance-stress-tests-through-browbeat>`__
 
 -  `Running PerfKitBenchmarker <#running-perfkitbenchmarker>`__
+
+   -  `Adding Functionality <#adding-functionality>`__
+
 -  `Contributing <#contributing>`__
 -  `Links and Resources <#resources>`__
 
@@ -377,6 +380,17 @@ Finally, push the patch for review using,
 ::
 
     $ git review
+
+Adding functionality
+--------------------
+
+If you are adding new functionality to Browbeat, either new workloads or new plugins for existing workloads you are required to add testing for that funcrionatliy in.
+
+::
+
+    $ ci-scripts/install-and-check.sh
+
+See the README.rst in the ci-scripts folder for more details on the structure of the script. 
 
 Resources
 =========
